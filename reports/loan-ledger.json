@@ -1,0 +1,73 @@
+{
+  "audit_instant": "2095-04-05T12:00:00Z",
+  "summary": {
+    "loans": 5,
+    "returned": 1,
+    "overdue": 1,
+    "due_within_48h": 2,
+    "scheduled": 1,
+    "valid_events": 6
+  },
+  "loans": [
+    {
+      "loan_id": "LN-103",
+      "artifact": "Cedar Mask",
+      "venue": "East Annex",
+      "return_due": "2095-04-05T20:00:00Z",
+      "priority": 1,
+      "latest_event_at": "",
+      "latest_event": "",
+      "latest_agent": "",
+      "valid_event_count": 0,
+      "status": "DUE_WITHIN_48H"
+    },
+    {
+      "loan_id": "LN-101",
+      "artifact": "Amber Compass",
+      "venue": "North Gallery",
+      "return_due": "2095-04-04T09:00:00Z",
+      "priority": 2,
+      "latest_event_at": "2095-04-04T10:00:00Z",
+      "latest_event": "CHECKED_IN",
+      "latest_agent": "T. Moss",
+      "valid_event_count": 2,
+      "status": "RETURNED"
+    },
+    {
+      "loan_id": "LN-104",
+      "artifact": "Silver Astrolabe",
+      "venue": "University Archive",
+      "return_due": "2095-04-03T17:30:00Z",
+      "priority": 3,
+      "latest_event_at": "2095-04-02T08:00:00Z",
+      "latest_event": "EXTENDED",
+      "latest_agent": "F. Chen",
+      "valid_event_count": 2,
+      "status": "OVERDUE"
+    },
+    {
+      "loan_id": "LN-102",
+      "artifact": "Harbor Chart",
+      "venue": "Maritime Hall",
+      "return_due": "2095-04-07T12:00:00Z",
+      "priority": 4,
+      "latest_event_at": "2095-04-05T11:00:00Z",
+      "latest_event": "EXTENDED",
+      "latest_agent": "A. Ives",
+      "valid_event_count": 2,
+      "status": "DUE_WITHIN_48H"
+    },
+    {
+      "loan_id": "LN-105",
+      "artifact": "Inkstone Set",
+      "venue": "City Library",
+      "return_due": "2095-04-10T08:00:00Z",
+      "priority": 5,
+      "latest_event_at": "",
+      "latest_event": "",
+      "latest_agent": "",
+      "valid_event_count": 0,
+      "status": "SCHEDULED"
+    }
+  ]
+}
